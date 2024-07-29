@@ -65,4 +65,22 @@ This project aims to predict Above Ground Biomass (AGB) using satellite imagery 
   - Feature importance
   - Error distribution
   - QQ plot of prediction errors
-
+    
+## Project Structure
+agb-prediction/
+│
+├── data/
+│   ├── training_set.csv
+│   ├── s1_composite.tif
+│   ├── s2_composite.tif
+│   └── alos_composite.tif
+│
+├── output/
+│   ├── agb_predictions.tif
+│   └── evaluation_plots/
+│
+|
+│   
+│
+├── README.md
+└── requirements.txt
